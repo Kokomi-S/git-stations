@@ -130,7 +130,8 @@ footer {
 #food-image>img {
   height: 100%;
   border-radius: 50%;
-}  
+}
+
 header {
   display: flex;
   background: linear-gradient(to bottom right, #493a40, #2c424d);
@@ -151,7 +152,7 @@ h1 {
   height: 100%;
 }
 
-#header-menu > ul {
+#header-menu>ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,17 +161,59 @@ h1 {
   margin: auto 25px;
 }
 
-#header-menu > ul > li {
+#header-menu>ul>li {
   padding-right: 2px;
   width: 20%;
   text-align: center;
   margin: auto 0;
 }
 
-#header-menu > ul > li > a {
+#header-menu>ul>li>a {
   color: white;
   display: block;
   width: 100%;
   height: 100%;
 }
-  
+
+#access>h2 {
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
+#access {
+  width: 80vw;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+#access>p {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#access>table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#access-detail {
+  display: flex;
+}
+
+#access-detail>table {
+  width: 50%;
+  height: 100px;
+  margin: auto;
+}
+
+#access-detail>p {
+  height: 50vh;
+  width: 50%;
+  text-align: center;
+}
+
+#access-detail>p>img {
+  height: 100%;
+}
